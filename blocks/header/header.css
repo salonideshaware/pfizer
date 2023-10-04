@@ -1,7 +1,6 @@
 /* header and nav layout */
 header .nav-wrapper {
   background-color: var(--background-color);
-  background-color: black;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -149,8 +148,8 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 66px;
-  height: 58px;
+  width: 202px;
+  height: 69px;
   padding-top: 10px;
 }
 
@@ -203,7 +202,6 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     padding-right: 16px;
     cursor: pointer;
-    color: white;
     text-transform: uppercase;
   }
 
