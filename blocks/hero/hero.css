@@ -37,3 +37,8 @@ main .hero img {
   width: 100%;
   height: 100%;
 }
+
+.p.cmp-hero{
+  text-align: center;
+  font-weight: bold;
+}
