@@ -145,14 +145,14 @@ a.button:any-link, button {
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid transparent;
+  border: 2px solid #3300ff;
   padding: 5px 30px;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 200;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: #3500ff;
+  background-color: #ffffff;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -161,7 +161,8 @@ a.button:any-link, button {
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
-  background-color: var(--link-hover-color);
+  background-color:  #0000FF;
+  color: white;
   cursor: pointer;
 }
 
