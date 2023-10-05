@@ -44,3 +44,26 @@
 .cmp-moreinfo{}
 
 .cmp-store{}
+
+div.columns.cmp-footer.block.columns-4-cols ul:nth-child(1),
+div.columns.cmp-footer.block.columns-4-cols ul:nth-child(2),
+div.columns.cmp-footer.block.columns-4-cols ul:nth-child(3),
+div.columns.cmp-footer.block.columns-4-cols ul:nth-child(4){
+  color: red;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+div.columns.cmp-footer.block.columns-4-cols li:nth-child(1) a,
+div.columns.cmp-footer.block.columns-4-cols li:nth-child(2) a,
+div.columns.cmp-footer.block.columns-4-cols li:nth-child(3) a,
+div.columns.cmp-footer.block.columns-4-cols li:nth-child(4) a {
+  color: black;
+  text-decoration: none;
+}
+
+div.columns.cmp-footer.block.columns-4-cols img{
+  height: 5rem;
+  width: 10rem;
+  padding-bottom: 107px;
+}
