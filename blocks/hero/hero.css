@@ -42,3 +42,17 @@ main .hero img {
   text-align: center;
   font-weight: bold;
 }
+
+div.hero.cmp-hero.block p:nth-child(2){
+  font-size: var(--heading-font-size-xxl);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+div.hero.cmp-hero.block p:nth-child(3), div.hero.cmp-hero.block p:nth-child(4){
+  font-size: var(--body-font-size-m);
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

@@ -1,8 +1,6 @@
-import {
-    createElement,
-} from '../../scripts/scripts.js';
-export default function decorate(block) {
-    const demo = document.createElement('ul');
-    block.append('ul');
 
-}
+const demo = document.querySelector('div.hero.cmp-hero.block');
+const test = demo.querySelector('p'); 
+demo.setAttribute('style', 'background-color: ');
+test.setAttribute('class', 'demo-id');
+
