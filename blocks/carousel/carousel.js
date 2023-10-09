@@ -25,7 +25,7 @@ export function optimizeThumbnails(picture) {
 }
 
 export default function decorate(block) {
-  optimizeThumbnails(block);
+//   optimizeThumbnails(block);
 
   const carousel = new Carousel(block.firstElementChild.lastElementChild);
   carousel.createPictureSlider();
